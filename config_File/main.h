@@ -1,0 +1,30 @@
+/*!
+    \file  main.h
+    \brief the header file of main 
+*/
+
+/*
+    Copyright (C) 2017 GigaDevice
+
+    2015-07-15, V1.0.0, firmware for GD32F20x
+    2017-06-05, V2.0.0, firmware for GD32F20x
+*/
+
+#ifndef __MAIN_H
+#define __MAIN_H
+
+//#define JLINK_DEBUG 
+
+enum POWER_MODE{POWER_OFF=0,POWER_ON};
+enum FAN_MODE{FAN_AUTO=0,FAN_MANUAL};
+enum FAN_LEVEL{FAN_CLOSE=0,FAN_LEVEL_1,FAN_LEVEL_2,FAN_LEVEL_3};
+
+#define LCD_DARK 0
+#define LCD_MAX_BRIGHT 1000
+
+
+enum GUI_BUTTON_NUM{MAIN_TIME_BUTTON_NUM=1,MAIN_SET_BUTTON_NUM,MAIN_WIFI_BUTTON_NUM,MAIN_AUTO_SW_NUM,\
+ADJUSTTIME_EXIT_TIME_BUTTON_NUM,ADJUSTTIME_CONFIRM_TIME_BUTTON_NUM,\
+SET_SET_BUTTON_NUM};
+
+#endif /* __MAIN_H */
