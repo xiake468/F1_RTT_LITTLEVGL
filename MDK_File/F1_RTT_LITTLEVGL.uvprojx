@@ -571,6 +571,11 @@
               <FileType>5</FileType>
               <FilePath>..\config_File\lv_conf.h</FilePath>
             </File>
+            <File>
+              <FileName>system_gd32f20x.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\gdStdLib200\CMSIS\GD\GD32F20x\Source\system_gd32f20x.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -579,22 +584,17 @@
             <File>
               <FileName>gd32f20x_it.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\neceFie\gd32f20x_it.c</FilePath>
+              <FilePath>..\neceFile\gd32f20x_it.c</FilePath>
             </File>
             <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\neceFie\main.c</FilePath>
+              <FilePath>..\neceFile\main.c</FilePath>
             </File>
             <File>
               <FileName>systick.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\neceFie\systick.c</FilePath>
-            </File>
-            <File>
-              <FileName>system_gd32f20x.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\gdStdLib200\CMSIS\GD\GD32F20x\Source\system_gd32f20x.c</FilePath>
+              <FilePath>..\neceFile\systick.c</FilePath>
             </File>
           </Files>
         </Group>
